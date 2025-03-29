@@ -15,15 +15,16 @@
 @endpush
 
 <!-- Bannière principale -->
-<!-- Bannière pleine largeur avec image de fond -->
-<section class="relative h-[500px] bg-cover bg-center" style="background-image: url('{{ asset('images/plombier-banner.jpg') }}');">
-    <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-center px-4">
-        <img src="{{ asset('images/logo.png') }}" alt="Logo" class="h-20 md:h-24 mb-6">
-        <h1 class="text-4xl md:text-5xl font-bold mb-4">Plomberie fiable & rapide à Ajaccio</h1>
-        <p class="text-lg md:text-xl mb-6">Installation, dépannage et entretien – pour particuliers et pros</p>
+
+<section class="relative h-[500px] bg-cover bg-[center_top] bg-no-repeat" style="background-image: url('{{ asset('images/logo4.png') }}');">
+    <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white text-center px-4">
+        <h1 class="text-4xl md:text-5xl font-bold mb-3 drop-shadow-lg">Plomberie fiable & rapide à Ajaccio</h1>
+        <p class="text-lg md:text-xl mb-6 drop-shadow">Installation, dépannage et entretien – particuliers & pros</p>
         <a href="{{ route('contact') }}" class="bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">Demander un devis</a>
     </div>
 </section>
+
+
 
 
 <!-- Services avec images -->
